@@ -1,0 +1,7 @@
+program
+  var x1 , 1
+  x2 , 2 ;
+start
+  iff [ x1 + 2 ~ 5 / 2 + 3 ]
+    print x1 ;
+stop

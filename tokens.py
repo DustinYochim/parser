@@ -1,10 +1,8 @@
-from enum import Enum, auto
-
 operators = ["=", ".le.", ".ge.", ".lt.", ".gt.", "~", ":", ";", "+", "-", "**", "/", "%", "(", ")", ",", "{", "}", "[", "]", "."]
 
 keywords = ["start", "stop", "iterate", "var", "exit", "read", "print", "iff", "then", "set", "func", "program"]
 
-class TokenTypes(Enum):
+class TokenTypes(object):
     KEYWORD = "keyword_token"
     IDENTIFIER = "identifier_token"
     NUMBER = "number_token"

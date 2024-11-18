@@ -1,0 +1,6 @@
+program
+  x1 , 1
+  x2 , 2 ;
+start
+  print 1 ;
+stop
